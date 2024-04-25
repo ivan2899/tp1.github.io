@@ -1,0 +1,56 @@
+.buttonNav {
+    background-color: #5555FF;
+    height: 30px;
+    color: #FFF;
+}
+
+.txtContactWsp {
+    margin: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgLogo {
+    margin-top: 10px;
+    position: absolute;
+    height: 65px;
+    background-color: #5555AA;
+}
+
+#submit {
+    background-color: #00AA00;
+    color: #FFFFFF;
+}
+
+#reset {
+    background-color: #FF3300;
+    color: #FFFFFF;
+}
+
+#submit:hover,
+#reset:hover {
+    background-color: #5555AA;
+    height: 25px;
+    box-shadow: 0 0 20px #5562ea,
+    0 0 50px #5562ea,
+    0 0 85px #5562ea,
+    0 0 125px #5562ea;
+}
+
+section{
+    background-color: #FFF;
+}
+
+header {
+    background-color: #88F;
+    height: 120px;
+}
+
+footer {
+    background-color: #88F;
+    height: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+}
