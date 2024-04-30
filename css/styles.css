@@ -37,6 +37,7 @@
     0 0 125px #5562ea;
 }
 
+
 section{
     background-color: #FFF;
 }
@@ -44,6 +45,8 @@ section{
 header {
     background-color: #88F;
     height: 120px;
+    
+    
 }
 
 footer {
@@ -54,3 +57,17 @@ footer {
     align-items: center;
     margin-top: 110px;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+}
+
