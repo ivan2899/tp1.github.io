@@ -25,13 +25,13 @@
 .maps-iframe {
     border: 3px solid black;
     justify-content: center;
-    margin: 15px 60px 0 100px;
+    margin: 15px 60px 0 50px;
 }
 
 .maps-h3 {
     justify-content: center;
     display: inline;
-    margin: 250px;
+    margin: 200px;
     padding: 20px;
 }
 
