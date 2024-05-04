@@ -1,3 +1,9 @@
+* {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .buttonNav {
     background-color: #5555FF;
     height: 30px;
@@ -7,7 +13,6 @@
 .txtContactWsp {
     margin: 5px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .imgLogo {
@@ -15,6 +20,19 @@
     position: absolute;
     height: 65px;
     background-color: #5555AA;
+}
+
+.maps-iframe {
+    border: 3px solid black;
+    justify-content: center;
+    margin: 15px 60px 0 100px;
+}
+
+.maps-h3 {
+    justify-content: center;
+    display: inline;
+    margin: 250px;
+    padding: 20px;
 }
 
 #submit {
@@ -32,21 +50,21 @@
     background-color: #5555AA;
     height: 25px;
     box-shadow: 0 0 20px #5562ea,
-    0 0 50px #5562ea,
-    0 0 85px #5562ea,
-    0 0 125px #5562ea;
+        0 0 50px #5562ea,
+        0 0 85px #5562ea,
+        0 0 125px #5562ea;
 }
 
 
-section{
+section {
     background-color: #FFF;
 }
 
 header {
     background-color: #88F;
     height: 120px;
-    
-    
+
+
 }
 
 footer {
@@ -58,16 +76,32 @@ footer {
     margin-top: 110px;
 }
 
-table, th, td {
+h2{
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h3{
+    color: black;
+    font-weight: bold;
+}
+
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
     padding: 5px;
 }
 
 th {
     text-align: center;
 }
-
